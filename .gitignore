@@ -1,0 +1,52 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.local
+*.local.*
+config.local.*
+secrets.*
+credentials.*
+
+# Keys and certificates
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Sessions, logs, databases, and local data
+*.session
+*.log
+*.db
+*.sqlite
+*.sqlite3
+
+# Archives, backups, and temporary files
+*.bak
+*.backup
+*.tmp
+*.zip
+*.7z
+*.rar
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# IDE and operating-system state
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Build and generated output
+build/
+dist/
+out/
+coverage/
+htmlcov/
