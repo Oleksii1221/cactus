@@ -1,15 +1,15 @@
-# Stakan project instructions
+# cactus project instructions
 
 ## Scope and directories
 
-- The repository root (`Stakan`) is the main working directory and the only Git repository for this project.
-- Run Git commands only from this repository. Before committing or pushing, verify that `git rev-parse --show-toplevel` resolves to the `Stakan` directory, never to its parent `PycharmProjects` directory.
-- `D:\StakanBack` is a local backup and archive directory. Never initialize Git there, add it as a worktree or submodule, copy it into the repository, or commit/push any of its contents.
-- Store backups, temporarily unused material, and large files that do not belong in Git in `D:\StakanBack`.
+- The repository root (`cactus`) is the main working directory and the only Git repository for this project.
+- Run Git commands only from this repository. Before committing or pushing, verify that `git rev-parse --show-toplevel` resolves to the `cactus` directory, never to its parent `PycharmProjects` directory.
+- `D:\CactusBack` is a local backup and archive directory. Never initialize Git there, add it as a worktree or submodule, copy it into the repository, or commit/push any of its contents.
+- Store backups, temporarily unused material, and large files that do not belong in Git in `D:\CactusBack`.
 
 ## Repository and branches
 
-- The public repository is `https://github.com/Oleksii1221/Stakan`.
+- The public repository is `https://github.com/Oleksii1221/cactus`.
 - Keep all publishable project source code and its supporting documentation in this repository.
 - `dev` is the default branch for development work.
 - After each coherent completed change, commit and push the relevant changes to `origin/dev` without asking for additional permission. This provides restore points and preserves earlier working states.
@@ -27,7 +27,7 @@
 - Put real local values in ignored files such as `.env` or other local configuration files. Track only sanitized templates such as `.env.example` or `config.example.*`, using obvious placeholders.
 - When configuration is required, document every required field and setup step in `README.md`, but never place real private values there.
 - Replace sensitive example values with neutral placeholders such as `YOUR_API_TOKEN`, `YOUR_DEVICE_IP`, or `192.0.2.1`.
-- Do not commit backups, generated archives, large temporary artifacts, local IDE state, logs, databases, or session files. Keep needed local copies in `D:\StakanBack`.
+- Do not commit backups, generated archives, large temporary artifacts, local IDE state, logs, databases, or session files. Keep needed local copies in `D:\CactusBack`.
 
 ## Working and verification rules
 

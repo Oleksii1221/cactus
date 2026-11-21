@@ -1,6 +1,6 @@
-# Stakan
+# cactus
 
-Public repository for the Stakan project.
+Public repository for the cactus project.
 
 ## Branches
 
@@ -21,4 +21,4 @@ Specific configuration fields and startup instructions will be documented here a
 
 ## Local backup directory
 
-Backups, large files, and temporarily unused project material are stored outside the repository in `D:\StakanBack`. Nothing from that directory should be committed or pushed to GitHub.
+Backups, large files, and temporarily unused project material are stored outside the repository in `D:\CactusBack`. Nothing from that directory should be committed or pushed to GitHub.
