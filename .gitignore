@@ -50,3 +50,19 @@ dist/
 out/
 coverage/
 htmlcov/
+
+# Android / Halium build products and downloaded source trees
+.repo/
+android-rootfs/
+halium-build/
+*.img
+*.bin
+*.raw
+*.sha256
+
+# Device dumps and extracted proprietary files must stay local
+backups/
+dumps/
+vendor/xiaomi/
+proprietary/
+device-inventory*.json

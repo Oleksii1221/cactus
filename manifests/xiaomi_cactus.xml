@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Android 9 / LineageOS 16 baseline, pinned for reproducible bring-up. -->
+  <remote name="github-xiaomi-mt6765" fetch="https://github.com/xiaomi-mt6765" />
+  <remote name="github-lineageos" fetch="https://github.com/LineageOS" />
+
+  <project
+      name="android_device_xiaomi_cactus"
+      path="device/xiaomi/cactus"
+      remote="github-xiaomi-mt6765"
+      revision="a097eaf11ea4bd39ada0e4479bb68161c2cb2389" />
+  <project
+      name="android_device_xiaomi_mt6765-common"
+      path="device/xiaomi/mt6765-common"
+      remote="github-xiaomi-mt6765"
+      revision="204a4baa6d6d08e691216068defb2aef5c6d8e58" />
+  <project
+      name="android_kernel_xiaomi_mt6765"
+      path="kernel/xiaomi/mt6765"
+      remote="github-xiaomi-mt6765"
+      revision="197413776ba04e331f3dc79d038325c7ed41432e" />
+  <project
+      name="android_packages_resources_devicesettings"
+      path="packages/resources/devicesettings"
+      remote="github-lineageos"
+      revision="68e6176074cc4f46b98d71fa12394e2b92f3c144" />
+</manifest>

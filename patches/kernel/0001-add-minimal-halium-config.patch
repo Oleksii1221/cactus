@@ -1,0 +1,48 @@
+diff --git a/arch/arm/configs/cactus_defconfig b/arch/arm/configs/cactus_defconfig
+index cd85624ec91a..9b080280eb65 100644
+--- a/arch/arm/configs/cactus_defconfig
++++ b/arch/arm/configs/cactus_defconfig
+@@ -1,6 +1,6 @@
+ CONFIG_CROSS_COMPILE="arm-eabi-"
+ # CONFIG_LOCALVERSION_AUTO is not set
+-# CONFIG_FHANDLE is not set
++CONFIG_FHANDLE=y
+ CONFIG_SCHED_WALT=y
+ CONFIG_LOG_BUF_SHIFT=19
+ CONFIG_CGROUP_DEBUG=y
+@@ -288,7 +288,8 @@ CONFIG_KEYBOARD_MTK_PMIC=y
+ CONFIG_INPUT_MISC=y
+ CONFIG_INPUT_UINPUT=y
+ # CONFIG_SERIO is not set
+-# CONFIG_VT is not set
++CONFIG_VT=y
++CONFIG_VT_CONSOLE=y
+ CONFIG_LEGACY_PTY_COUNT=16
+ # CONFIG_DEVMEM is not set
+ # CONFIG_DEVKMEM is not set
+@@ -480,2 +481,9 @@ CONFIG_MTK_FINGERPRINT_SUPPORT=n
+ CONFIG_CPUMAXFREQ=y
+ CONFIG_MTK_VIDEOX_LIVEDISPLAY=y
++CONFIG_DEVTMPFS=y
++CONFIG_SYSVIPC=y
++CONFIG_IPC_NS=y
++CONFIG_NET_NS=y
++CONFIG_PID_NS=y
++CONFIG_USER_NS=y
++CONFIG_UTS_NS=y
+diff --git a/arch/arm/configs/halium.config b/arch/arm/configs/halium.config
+new file mode 100644
+index 000000000000..b9e9672ca8c9
+--- /dev/null
++++ b/arch/arm/configs/halium.config
+@@ -0,0 +1,10 @@
++CONFIG_DEVTMPFS=y
++CONFIG_FHANDLE=y
++CONFIG_SYSVIPC=y
++CONFIG_IPC_NS=y
++CONFIG_NET_NS=y
++CONFIG_PID_NS=y
++CONFIG_USER_NS=y
++CONFIG_UTS_NS=y
++CONFIG_VT=y
++CONFIG_VT_CONSOLE=y
